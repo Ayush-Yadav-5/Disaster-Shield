@@ -63,7 +63,7 @@ interface LocationCoordinates {
 }
 
 class WeatherService {
-  private readonly API_KEY = 'acd739c1934f858d293e2f9fd9cd5077';
+  private readonly API_KEY = 'YOUR_KEY';
   private readonly BASE_URL = 'https://api.openweathermap.org';
   private readonly REQUEST_TIMEOUT = 15000; // 15 seconds
   
